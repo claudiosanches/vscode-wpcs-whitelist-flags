@@ -1,0 +1,72 @@
+{
+    "WPCS: cache ok": {
+        "prefix": "wpcs_cache",
+        "body": "// WPCS: cache ok.",
+        "description": "Allow database query without caching"
+    },
+    "WPCS: CSRF ok": {
+        "prefix": "wpcs_csrf",
+        "body": "// WPCS: CSRF ok.",
+        "description": "No need for nonce verification/CSRF"
+    },
+    "WPCS: db call ok": {
+        "prefix": "wpcs_db_call",
+        "body": "// WPCS: db call ok.",
+        "description": "Allow direct database query"
+    },
+    "WPCS: input var ok": {
+        "prefix": "wpcs_input_var",
+        "body": "// WPCS: input var ok.",
+        "description": "Allow use of superglobal"
+    },
+    "WPCS: loose comparison ok": {
+        "prefix": "wpcs_loose_comparison",
+        "body": "// WPCS: loose comparison ok.",
+        "description": "Allow loose comparison"
+    },
+    "WPCS: override ok": {
+        "prefix": "wpcs_override",
+        "body": "// WPCS: override ok.",
+        "description": "Allow override WordPress globals"
+    },
+    "WPCS: precision alignment ok": {
+        "prefix": "wpcs_precision_alignment",
+        "body": "// WPCS: precision alignment ok.",
+        "description": "Ignore precision alignment"
+    },
+    "WPCS: prefix ok": {
+        "prefix": "wpcs_prefix",
+        "body": "// WPCS: prefix ok.",
+        "description": "Allow non-prefixed function/class/variable/constant in the global namespace"
+    },
+    "WPCS: PreparedSQLPlaceholders replacement count ok": {
+        "prefix": "wpcs_preparedsql",
+        "body": "// WPCS: PreparedSQLPlaceholders replacement count ok.",
+        "description": "Allow preparedSQL placeholders vs replacements"
+    },
+    "WPCS: sanitization ok": {
+        "prefix": "wpcs_sanitization",
+        "body": "// WPCS: sanitization ok.",
+        "description": "Allow unsanitized code"
+    },
+    "WPCS: slow query ok": {
+        "prefix": "wpcs_slow_query",
+        "body": "// WPCS: slow query ok.",
+        "description": "Allow slow query"
+    },
+    "WPCS: spelling ok": {
+        "prefix": "wpcs_spelling",
+        "body": "// WPCS: spelling ok.",
+        "description": "Allow incorrect \"WordPress\" spelling"
+    },
+    "WPCS: unprepared SQL ok": {
+        "prefix": "wpcs_unprepared_sql",
+        "body": "// WPCS: unprepared SQL ok.",
+        "description": "Allow unprepared SQL query"
+    },
+    "WPCS: XSS ok": {
+        "prefix": "wpcs_xss",
+        "body": "// WPCS: XSS ok.",
+        "description": "Allow unescaped code"
+    }
+}
