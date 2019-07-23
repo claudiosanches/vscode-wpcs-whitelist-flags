@@ -2,7 +2,7 @@
     "name": "wpcs-whitelist-flags",
     "displayName": "WPCS Whitelist Flags",
     "description": "Add WordPress Coding Standards whitelist flags to your code.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "claudiosanches",
     "author": {
         "name": "Claudio Sanches"
