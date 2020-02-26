@@ -51,7 +51,7 @@
     },
     "WPCS: slow query ok": {
         "prefix": "wpcs_slow_query",
-        "body": "// phpcs:ignore WordPress.VIP.SlowQuery",
+        "body": "// phpcs:ignore WordPress.DB.SlowDBQuery",
         "description": "Allow slow query"
     },
     "WPCS: spelling ok": {
